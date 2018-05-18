@@ -1,0 +1,13 @@
+Running time and space requirement of implemented algorithm:
+
+Running time and space requirement are: Ɵ(mn) 
+Where m is length of first string and n is length of second string.
+
+Solution to part b:
+The DNA-alignment problem is just the edit-distance problem, with  
+cost(copy) =− 1, 
+cost(replace) =+ 1,
+ cost(delete) =+ 2,
+ cost(insert) =+ 2,
+the twiddle and kill operations are not permitted. 
+The score that we are trying to maximize in the DNA-alignment problem is precisely the negative of the cost we are trying to minimize in the edit-distance problem. The negative cost of copy is not an impediment, since we can only apply the copy operation when the characters are equal.
