@@ -1,14 +1,8 @@
-/*
-Name: Lane Colquett
-Date: 10/18/17
-By submitting this work, I attest that it is my original work and that I did
-not violate the University of Mississippi academic policies set forth in the M book.
-*/
 
 import java.util.Scanner;
 import java.util.Random;
 
-public class Game21_VLC
+public class Game21
 {
 	
 public static Scanner keyboard = new Scanner (System.in);
@@ -26,7 +20,7 @@ String ans;
 char repeat = 'y';
 int totalPlayer, totalDealer;
 		
-//u dont have to change it. i just changes it top while instead of dop while.		
+		
 while (repeat == 'y' || repeat == 'Y')
 {
 	
@@ -42,7 +36,7 @@ lost++;
 }
 			
 else{
-// changes did here	
+	
 totalDealer = Dealer(total);
 
 if (totalDealer ==-1)
@@ -64,8 +58,7 @@ lost++;
 }
 				
 else 
-//changes did here
-//if (totalDealer == totalPlayer)
+
 {
 System.out.println("Tis a draw!");
 tied++;
@@ -117,17 +110,17 @@ char repeat1;
 		
 
 
-//changes did here. 
+
 System.out.println("Would you like another card? y / n?");
 ans1 = keyboard.nextLine();
 repeat1 = ans1.charAt(0);	
 
-//changes did here
+
 while (repeat1 == 'y'|| repeat1 == 'Y')
 {	
 card = generateCard( );
 
-//changes did here
+
 int total3 = total2 + card;
 
 if (card == 11 && total3 > 21)
@@ -149,7 +142,7 @@ repeat1 = ans1.charAt(0);
 else
 {
 total2 = -1;
-//System.out.println("Your total is "+ total2);
+
 repeat1 =' ';
 }
 			
@@ -159,7 +152,7 @@ repeat1 =' ';
 return total2;
 }
 	
-//Random Card Generated
+
 public static int generateCard ()
 {
 Random rand = new Random();
