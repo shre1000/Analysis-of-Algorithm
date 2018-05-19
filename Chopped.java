@@ -81,6 +81,6 @@ public class Chopped{
 	double ans11 = Q11 * 3.78541;
 	System.out.println("the amount of gas in Liters: "+ ans11+"\n");
 	
-	System.out.print("The designer's name is Mohammed Saif Ali Alfahdi \nI hope you liked my program, and have a great day!");
+	
 	}
 }
