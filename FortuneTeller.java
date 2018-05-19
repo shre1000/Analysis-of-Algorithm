@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.*;
 
 
-public class FortuneTeller_JP {
+public class FortuneTeller {
 	public static void main(String[] args ) {
 		
 		Scanner keyboard = new Scanner(System.in);
