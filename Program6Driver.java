@@ -1,14 +1,4 @@
 
-/*
-
-Name: Mitchell Gauthier
-Current Date: 11/15/2017
-Sources Consulted: Notes from class lectures and textbook.
-
-By submitting this work, I attest that it is my original work and that I did not violate the
-University of Mississippi academic policies set forth in the M book.
-
-*/
 
 import java.io.File;
 import java.io.FileNotFoundException;
